@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/todoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Todo"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/priorityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="262dp"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Priority"
+        android:textSize="22dp" />
+
+    <CheckBox
+        android:id="@+id/finishedCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="4dp" />
+
+</RelativeLayout>
